@@ -1,0 +1,17 @@
+body {
+  background-image: url(../img/woodgrain.jpg);
+}
+
+.logo {
+    font-size: 80px;
+    font-family: 'Amatic SC';
+}
+
+.logo a {
+  color: rgba(0,0,0,.9);
+}
+
+.logo a:hover,
+.logo a:active {
+  text-decoration: none;
+}

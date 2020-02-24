@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{% static 'css/accounts.css' %}">
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-lg-8 col-md-10 col-sm-12">
+                <div class="card-body">
+                    <h1 class="text-center logo">
+                        <a href="{% url 'home' %}">Zenen's Planting Crew</a>
+                    </h1>
+                {% block content %}
+                {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
